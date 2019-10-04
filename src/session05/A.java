@@ -26,3 +26,4 @@ class B extends A {
         System.out.println("C");
     }
 }
+// test
