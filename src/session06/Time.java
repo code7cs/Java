@@ -1,0 +1,36 @@
+package session06;
+
+public class Time {
+    private int t;
+
+    // constructor
+    public Time(int hour, int minute, int second) {
+        t = hour * 60 * 60 + minute * 60 + second;
+    }
+
+    public Time() {
+        this(15, 0, 0); // t = 15 * 60 * 60;
+    }
+
+    public String toString() {
+        int h = t / 3600;
+        int m = t % 3600 / 60;
+        int s = t % 60;
+
+        return (h < 10 ? "0" + h : "" + h) + ":"
+                + (m < 10 ? "0" + m : "" + m) + ":"
+                + (s < 10 ? "0" + s : "" + s);
+    }
+
+
+    public int diff(Time b) {
+        return this.t - b.t;
+    }
+
+    public static void main(String[] args) {
+        Time a = new Time(15, 10, 30);
+        Time b = new Time();    // 15: 00: 00
+        System.out.println(a);
+        System.out.println(a.diff(b));
+    }
+}
