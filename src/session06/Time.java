@@ -24,6 +24,8 @@ public class Time {
 
 
     public int diff(Time b) {
+        // alternate way to do it by storing h,m,s
+        //return h * 3600 + m * 60 + s - b.h * 3600 - b.m*60 - b.s;
         return this.t - b.t;
     }
 

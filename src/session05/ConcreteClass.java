@@ -13,13 +13,11 @@ public class ConcreteClass {
         x = 0;
         y = 2.5f;
         name = "Fred";
-
     }
 
     public static void main(String[] args) {
         ConcreteClass concreteClass = new ConcreteClass(); // instantiate
     }
-
 }
 
 abstract class Vehicle {

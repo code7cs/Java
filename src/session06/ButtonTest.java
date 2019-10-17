@@ -13,13 +13,14 @@ public class ButtonTest extends JFrame {
         t = new JTextField();
 
         Container c = getContentPane();
+//        getContentPane().add(BorderLayout.NORTH, t);
         c.add(BorderLayout.NORTH, t);
         c.add(BorderLayout.SOUTH, b);
 
         b.addActionListener(
-                new ActionListener() {
+                new ActionListener() { // ButtonTest$1
                     @Override
-                    public void actionPerformed(ActionEvent e) {    // ButtonTest$1
+                    public void actionPerformed(ActionEvent e) {
 //                        t.setText(t.getText() + "hello!");
                         int count = Integer.parseInt(t.getText());
                         t.setText(count + 1 + "");
@@ -28,7 +29,7 @@ public class ButtonTest extends JFrame {
         );
     }
 
-    public static void main(String[] args) {
-
-    }
+//    public static void main(String[] args) {
+//
+//    }
 }

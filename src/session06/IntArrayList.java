@@ -30,14 +30,17 @@ public class IntArrayList {
     }
 
     public String toString() {
-//        String s = "";    // BAD IDEA!!
         StringBuilder builder = new StringBuilder(used * 10);
         for (int i = 0; i < used; i++) {
-//            s = s + a[i] + " ";
             builder.append(i).append(" ");
         }
-//        return s;
         return builder.toString();
+        /* BAD IDEA!!!
+        String s = "";
+        for (int i = 0; i < used; i++)
+           s = s + a[i] + " ";
+        return s;
+        */
     }
 
     public static void main(String[] args) {

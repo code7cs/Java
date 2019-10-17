@@ -5,7 +5,7 @@ public class A {
 
     public A(int x) {
         this.x = x + 1;
-        System.out.println("session05.A" + x);
+        System.out.println("A" + x);
     }
 
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class A {
 class B extends A {
     public B() {
         super(3);
-        System.out.println("session05.B");
+        System.out.println("B");
     }
 
     public B(int x) {
