@@ -9,6 +9,7 @@ public class ButtonTest extends JFrame {
     private JTextField t;
 
     public ButtonTest() {
+        this.setSize(600,400);
         JButton b = new JButton("ok");
         t = new JTextField();
 
@@ -16,7 +17,6 @@ public class ButtonTest extends JFrame {
 //        getContentPane().add(BorderLayout.NORTH, t);
         c.add(BorderLayout.NORTH, t);
         c.add(BorderLayout.SOUTH, b);
-
         b.addActionListener(
                 new ActionListener() { // ButtonTest$1
                     @Override
@@ -27,9 +27,10 @@ public class ButtonTest extends JFrame {
                     }
                 }
         );
+        this.setVisible(true);
     }
 
-//    public static void main(String[] args) {
-//
-//    }
+    public static void main(String[] args) {
+        new ButtonTest();
+    }
 }

@@ -14,6 +14,10 @@ public class ListTest {
 		points.add(new Point(2,3));
 		points.add(new Point(4,100));
 
+
+		for (int i = 0; i < 5; i++) {
+			System.out.println(points.add(new Point(1, 2)));
+		}
 		for (int i = 0; i < points.size(); i++)
 			System.out.print(points.get(i) + " ");
 		System.out.println();

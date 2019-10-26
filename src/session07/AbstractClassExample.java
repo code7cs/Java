@@ -10,7 +10,7 @@ public class AbstractClassExample {
         FighterPlane fp = new FighterPlane(1000);
         fp.fly();
         //ILLEGAL		fp.serveCoffee();
-
+        fp.shoot();
 
     }
 }

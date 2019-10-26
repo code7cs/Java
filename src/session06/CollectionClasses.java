@@ -15,28 +15,38 @@ public class CollectionClasses {
             a[i] = old[i];
         a[10] = 99;
 
-        ArrayList<Integer> list = new ArrayList<>(1000000);
-        list.add(1);
-        for (int i = 0; i < 1000000; i++)
+        ArrayList<Integer> list = new ArrayList<>(100);
+//        list.add(1);
+        System.out.println(list.size());
+        for (int i = 0; i < 100; i++)
             list.add(i);
-        list.remove(0); // slow!
+        System.out.println(list.size());
+
+        //        list.remove(0); // slow!
+
+        System.out.println(list);   // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, ...
+
+
         Integer x = 2;
 
         for (int i = 0; i < list.size(); i++)
             list.set(i, list.get(i) * 2);
 //            list.set(i, new Integer(list.get(i).intValue()*2));
+        System.out.println(list);   // [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, ...
+
 
         ArrayList<String> b = new ArrayList<>();
         b.add("Hello");
         b.add("test");
-
+        System.out.println(b);
         for (int i = 0; i < b.size(); i++)
             System.out.println(b.get(i));
 
         //ITERATORS ARE THE BEST way to traverse a list
         for (Iterator<String> i = b.iterator(); i.hasNext(); ) {
+            System.out.println(i);
             String s = i.next();
-            System.out.println(s);
+            System.out.print(s + "\t");
         }
 
         LinkedList<String> b2 = new LinkedList<>();

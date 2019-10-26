@@ -1,5 +1,7 @@
 package session05;
 
+import java.awt.*;
+
 /**
  * https://bbs.csdn.net/topics/350150672
  */
@@ -17,8 +19,16 @@ public class ConcreteClass {
 
     public static void main(String[] args) {
         ConcreteClass concreteClass = new ConcreteClass(); // instantiate
+        System.out.println(concreteClass.x);
+        System.out.println(concreteClass.y);
+        System.out.println(concreteClass.name);
+
+        Car car1 = new Car(120, "Red");
+        car1.payToll();
     }
 }
+// 抽象类 里可以没有 抽象方法，但 有抽象方法的类 只能定义为 抽象类 ！！！
+// 抽象类 不能被实例化，instantiate
 
 abstract class Vehicle {
     private int speed;
@@ -30,7 +40,7 @@ abstract class Vehicle {
         speed = s;
     }
 
-    public abstract void payToll();
+    public abstract void payToll(); // 抽象方法，没有{}，即 没有方法体 !!!
 }
 
 class Car extends Vehicle {
@@ -40,8 +50,14 @@ class Car extends Vehicle {
         this.speed = speed;
     }
 
+    // 普通类，必须实现Vehicle类里的所有抽象方法 ！！！
+    // 重写Vehicle类的payToll方法
     public void payToll() {
-        System.out.println("pay $15");
+        if (speed > 100) {
+            System.out.println("pay $25");
+        } else {
+            System.out.println("pay $15");
+        }
     }
 }
 
@@ -65,8 +81,8 @@ class Bus extends Vehicle {
     }
 }
 
-interface Professor {
-    public void lecture();
-
-    public void officeHours();
-}
+//interface Professor {
+//    public void lecture();
+//
+//    public void officeHours();
+//}

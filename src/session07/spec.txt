@@ -38,8 +38,8 @@ abstract class .. {
 A Person has a heart and two kidneys.
 The heart has three parameters
   beats per minute (bpm)
-  systolic pressure
-  diastolic pressure
+  systolic pressure     // 收缩压
+  diastolic pressure    // 舒张压
 
 The kidney will be represented by overall function
  0 to 100%
