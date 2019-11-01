@@ -55,7 +55,7 @@ public class SpellCheck {
             LinkedHashMap<String, Integer> resultMap = new LinkedHashMap<>();
             int wrongWordsCounts = 0;
             for (Map.Entry<String, Integer> entry : allWordsMap.entrySet()) {
-                if (!rawDataMap.containsKey(entry.getKey()) && !rawDataMap.containsKey(lowerCase(entry.getKey())) && !rawDataMap.containsKey(upperCase(entry.getKey()))) {
+                if (!rawDataMap.containsKey(entry.getKey()) && !rawDataMap.containsKey(lowerCase(entry.getKey()))) {
                     resultMap.put(entry.getKey(), entry.getValue());
                     wrongWordsCounts += entry.getValue();
                 }
@@ -98,14 +98,6 @@ public class SpellCheck {
         char[] ch = str.toCharArray();
         if (ch[0] >= 'A' && ch[0] <= 'Z') {
             ch[0] = (char) (ch[0] + 32);
-        }
-        return new String(ch);
-    }
-
-    private static String upperCase(String str) {
-        char[] ch = str.toCharArray();
-        if (ch[0] >= 'a' && ch[0] <= 'z') {
-            ch[0] = (char) (ch[0] - 32);
         }
         return new String(ch);
     }
