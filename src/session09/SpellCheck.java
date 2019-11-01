@@ -4,10 +4,12 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
 import java.util.*;
+import java.util.regex.Pattern;
 
 /**
  * @author Hanfan Wang
  */
+
 public class SpellCheck {
     public static void main(String[] args) {
         // https://raw.githubusercontent.com/StevensDeptECE/Dictionaries/master/usen-spelling-dict.txt
@@ -34,11 +36,11 @@ public class SpellCheck {
             Scanner s2 = new Scanner(new FileReader("data/treasureisland.txt"));
             // put every word into a list named words
             List<String> words = new ArrayList<>();
+            String patten = "(^([A-Z]|[a-z])[a-z]*$)";
             while (s2.hasNext()) {
-                // strip all punctuation, ignore all caps, words are no digits
-                String[] arr = s2.nextLine().replaceAll("\\p{P}", "").toLowerCase().split("[^a-z]+");
+                String[] arr = s2.nextLine().replaceAll("\\p{P}", "").split("[^A-Za-z]+");
                 for (String s : arr) {
-                    if (!s.equals("")) words.add(s);
+                    if (!s.equals("") && Pattern.matches(patten, s)) words.add(s);
                 }
             }
 
@@ -53,8 +55,7 @@ public class SpellCheck {
             LinkedHashMap<String, Integer> resultMap = new LinkedHashMap<>();
             int wrongWordsCounts = 0;
             for (Map.Entry<String, Integer> entry : allWordsMap.entrySet()) {
-                // if that is not a word, search for the capitalized version
-                if (!rawDataMap.containsKey(entry.getKey()) && !rawDataMap.containsKey(upperCase(entry.getKey()))) {
+                if (!rawDataMap.containsKey(entry.getKey()) && !rawDataMap.containsKey(lowerCase(entry.getKey())) && !rawDataMap.containsKey(upperCase(entry.getKey()))) {
                     resultMap.put(entry.getKey(), entry.getValue());
                     wrongWordsCounts += entry.getValue();
                 }
@@ -68,7 +69,7 @@ public class SpellCheck {
             // print the first 100 incorrect words
             int i = 0;
             System.out.println("The first 100 incorrect words are: ");
-            for (Map.Entry<String, Integer> entry: resultMap.entrySet()) {
+            for (Map.Entry<String, Integer> entry : resultMap.entrySet()) {
                 if (i < 100) {
                     System.out.print(entry.getKey() + ", ");
                 }
@@ -91,6 +92,14 @@ public class SpellCheck {
             e.printStackTrace();
         }
 
+    }
+
+    private static String lowerCase(String str) {
+        char[] ch = str.toCharArray();
+        if (ch[0] >= 'A' && ch[0] <= 'Z') {
+            ch[0] = (char) (ch[0] + 32);
+        }
+        return new String(ch);
     }
 
     private static String upperCase(String str) {
