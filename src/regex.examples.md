@@ -1,7 +1,7 @@
 abc	a followed by b followed by c
-    [abc]	one of a or b or c
-    [a-z]	one of the range a through z
-    [^abc]	match any one letter that is NOT a or b or c
+[abc]	one of a or b or c
+[a-z]	one of the range a through z
+[^abc]	match any one letter that is NOT a or b or c
 \d	[0-9]
 \w	[a-zA-Z0-9]
 a*	zero or more occurrences of a
@@ -9,7 +9,7 @@ a+	aa*  one or more
 a?	zero or one occurrence
 (?:hello)+   non-grouping paren	 matches hello hellohello  hellohellohello...
 (?:abc|def) abc OR def
-    .	any single character except \n
+.	any single character except \n
 ( )	grouping operator, remembers what was matched
 
 
@@ -19,7 +19,7 @@ ABC
 ABC_123
 ABC$123
 
-    [A-Za-z_][0-9A-Za-z_\$]*
+[A-Za-z_][0-9A-Za-z_\$]*
 
 A
 A9
@@ -28,10 +28,10 @@ aB
 ABC
 
 http://www.azz.com
-    http://azz.com
-        http://www.az.co.uk
+http://azz.com
+http://www.az.co.uk
 
-            .us .gov .biz   .co.uk
+.us .gov .biz   .co.uk
 
 https?:\/\/([a-zA-Z0-9]+\.)?[a-zA-Z0-9]+\.[a-zA-Z0-9]+
 https://
