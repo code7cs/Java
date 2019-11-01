@@ -38,7 +38,7 @@ public class SpellCheck {
             List<String> words = new ArrayList<>();
             String patten = "(^([A-Z]|[a-z])[a-z]*$)";
             while (s2.hasNext()) {
-                String[] arr = s2.nextLine().replaceAll("\\p{P}", "").split("[^A-Za-z]+");
+                String[] arr = s2.nextLine().replaceAll("[\\p{P}&&[^-']]", "").split("[^A-Za-z]+");
                 for (String s : arr) {
                     if (!s.equals("") && Pattern.matches(patten, s)) words.add(s);
                 }
