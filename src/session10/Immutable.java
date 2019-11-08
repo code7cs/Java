@@ -22,6 +22,8 @@ public class Immutable {
         System.out.println(j == i1);    // false.  because check the identity
         System.out.println(j.equals(i1));   // true
 
+        int z = 2 + 3; // evaluates to constant 5
+
 
         String s1 = "abc";
         String s2 = "abc";

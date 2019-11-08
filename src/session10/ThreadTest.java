@@ -14,6 +14,14 @@ class SumEven extends Thread {
             if (i % 2 == 0) sum += i;
         }
         System.out.println(sum);
+//        if (start % 2 != 0)
+//            start++;
+//        if (end % 2 != 0)
+//            end--;
+//        long sum = 0;
+//        for (int i = start; i <= end; i += 2)
+//            sum += i;
+//        System.out.println(sum);
     }
 }
 
