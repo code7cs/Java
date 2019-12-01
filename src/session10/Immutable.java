@@ -14,12 +14,12 @@ public class Immutable {
         // identity
         int x = 2;
         int y = 3;
-        System.out.println(x == y);
+        System.out.println(x == y); // false
         Integer j = i1;
 
-        System.out.println(j == i1);    // same object
+        System.out.println(j == i1);    // same object, true
         j = new Integer(4);
-        System.out.println(j == i1);    // false.  because check the identity
+        System.out.println(j == i1);    // false.  because check the identity !!!!!!!!!!!!!!!!!!!
         System.out.println(j.equals(i1));   // true
 
         int z = 2 + 3; // evaluates to constant 5
@@ -32,10 +32,10 @@ public class Immutable {
         System.out.println(s1 == s3);   // true
         String s4 = "ab";
         s4 += "c";
-        System.out.println(s1 == s4);   // false
+        System.out.println(s1 == s4);   // false  !!!!!!!!!!!!!!!!!!!!!!
         System.out.println(s1.equals(s4));   // true
         String s5 = new String("abc");
-        System.out.println(s1 == s5);   // false
+        System.out.println(s1 == s5);   // false  !!!!!!!!!!!!!!!!!!!!!
 
     }
 }
