@@ -47,15 +47,16 @@ class PrintEven extends Thread {
 public class ThreadTest {
     public static void main(String[] args) {
 //        Thread t1 = new SumEven(3, 9);
-        Thread t1 = new PrintEven(3, 90000);
+        Thread t1 = new PrintEven(3, 9);
         t1.start();
 //        Thread t2 = new SumEven(10, 15);
-        Thread t2 = new SumEven(100000, 150000);
+        Thread t2 = new SumEven(1, 10);
         t2.start();
-        try {
-            t1.join();
-            t2.join();
-        } catch (Exception e) {
-        }
+//        try {
+//            t1.join();
+//            t2.join();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
     }
 }

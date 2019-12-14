@@ -7,6 +7,7 @@ public class Win1 extends JFrame {
     public Win1(Color fg, Color bg) {
         this.setSize(600, 400);
         Container c = getContentPane();
+//        Container c2 = getContentPane();
         c.setBackground(bg);
         c.setForeground(fg);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

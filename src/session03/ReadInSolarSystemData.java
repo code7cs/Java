@@ -12,9 +12,14 @@ public class ReadInSolarSystemData {
                 String[] arr = scanner.nextLine().split("\\s+");
                 Stars s = new Stars(arr);
                 String name = s.name;
-                if (name.equals("Sun") || name.equals("Venus") || name.equals("Earth") || name.equals("Moon")) {
-                    System.out.println(s);
+
+                String[] stars = {"Sun", "Venus", "Earth", "Moon"};
+                for (String star : stars) {
+                    if (name.equals(star)) System.out.println(s);
                 }
+//                if (name.equals("Sun") || name.equals("Venus") || name.equals("Earth") || name.equals("Moon")) {
+//                    System.out.println(s);
+//                }
             }
             scanner.close();
         } catch (Exception e) {

@@ -9,7 +9,7 @@ public _________ B ___________ A { // abstract class, implements
   public B(int x) { ______________}
 }
 
-public __________ C _____________ B { // abstract class , extends
+public __________ C _____________ B { // abstract class , extends   // 好像不一定是abstract…
   private int y;
   public C(int x, int y) {
 

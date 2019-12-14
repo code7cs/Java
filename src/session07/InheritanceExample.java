@@ -25,7 +25,7 @@ class MyClass implements W {
 
 
     abstract class X implements W {
-        public void f() {};
+        public void f() {}
 
         public void f2() {
         }

@@ -37,7 +37,13 @@ class Chinese extends Person {
 
     public static void main(String[] args) {
         Chinese cn = new Chinese();
+
+        System.out.println();
+
         cn = new Chinese("Hanfan");
+
+        System.out.println();
+
         cn = new Chinese("Hanfan", 23);
     }
 }
