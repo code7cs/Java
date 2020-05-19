@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c6edbe8-13d8-40bd-974d-593e1c70e27b" name="Default Changelist" comment="session10">
-      <change afterPath="$PROJECT_DIR$/Java-2020/hw01/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-2020-root/onClass/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-2020-root/onClass/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-2020-root/onClass/IA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-2020-root/onClass/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-2020.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-2020/hw01/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-2020-root/hw01/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-2020/hw01/PrintNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-2020-root/hw01/PrintNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/treasureisland.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/treasureisland.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -75,9 +84,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/java-2020-root" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -90,6 +107,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java-2020-root" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -107,32 +125,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.PrintNumber">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="session12.A" />
-      <module name="2019fall-in-class" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="session12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PrintNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrintNumber" />
-      <module name="2019fall-in-class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadInSolarSystemData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="session03.ReadInSolarSystemData" />
-      <module name="2019fall-in-class" />
+      <option name="MAIN_CLASS_NAME" value="hw01.PrintNumber" />
+      <module name="java-2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="session03.*" />
+          <option name="PATTERN" value="hw01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,25 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolarSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solarSystem.SolarSystem" />
-      <module name="2019fall-in-class" />
+    <configuration name="Test" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="onClass.Test" />
+      <module name="java-2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solarSystem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Vec3d" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="session03.Vec3d" />
-      <module name="2019fall-in-class" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="session03.*" />
+          <option name="PATTERN" value="onClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,10 +154,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.PrintNumber" />
-        <item itemvalue="Application.A" />
-        <item itemvalue="Application.SolarSystem" />
-        <item itemvalue="Application.Vec3d" />
-        <item itemvalue="Application.ReadInSolarSystemData" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +202,7 @@
       <workItem from="1573844695583" duration="9464000" />
       <workItem from="1574473305888" duration="6878000" />
       <workItem from="1575166457591" duration="19000" />
-      <workItem from="1589906164756" duration="1155000" />
+      <workItem from="1589906164756" duration="5641000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1570214764626</created>
@@ -320,10 +301,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="session10" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2080" y="211" key="#Project_Structure" timestamp="1589906562751">
+    <state x="2080" y="211" key="#Project_Structure" timestamp="1589912360927">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state x="2080" y="211" key="#Project_Structure/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589906562751" />
+    <state x="2080" y="211" key="#Project_Structure/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589912360927" />
+    <state x="2180" y="326" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589912552603">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2180" y="326" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589912552603" />
     <state x="2428" y="568" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589907007693">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
@@ -332,30 +317,34 @@
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state x="2242" y="124" key="CommitChangelistDialog2/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589907202485" />
-    <state width="2508" height="354" key="GridCell.Tab.0.bottom" timestamp="1589906943127">
+    <state width="2508" height="354" key="GridCell.Tab.0.bottom" timestamp="1589912581968">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="354" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589906943127" />
-    <state width="2508" height="354" key="GridCell.Tab.0.center" timestamp="1589906943126">
+    <state width="2508" height="354" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589912581968" />
+    <state width="2508" height="354" key="GridCell.Tab.0.center" timestamp="1589912581967">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="354" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589906943126" />
-    <state width="2508" height="354" key="GridCell.Tab.0.left" timestamp="1589906943125">
+    <state width="2508" height="354" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589912581967" />
+    <state width="2508" height="354" key="GridCell.Tab.0.left" timestamp="1589912581967">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="354" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589906943125" />
-    <state width="2508" height="354" key="GridCell.Tab.0.right" timestamp="1589906943126">
+    <state width="2508" height="354" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589912581967" />
+    <state width="2508" height="354" key="GridCell.Tab.0.right" timestamp="1589912581968">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="354" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589906943126" />
+    <state width="2508" height="354" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589912581968" />
     <state x="2080" y="211" key="SettingsEditor" timestamp="1589906480609">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state x="2080" y="211" key="SettingsEditor/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589906480609" />
-    <state width="666" height="201" key="javadoc.popup.new" timestamp="1589907279612">
+    <state x="2482" y="503" key="chooseDestDirectoryDialog" timestamp="1589911772797">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="666" height="201" key="javadoc.popup.new/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589907279612" />
+    <state x="2482" y="503" key="chooseDestDirectoryDialog/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589911772797" />
+    <state width="666" height="201" key="javadoc.popup.new" timestamp="1589912141468">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state width="666" height="201" key="javadoc.popup.new/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589912141468" />
     <state x="1914" y="198" key="new project wizard" timestamp="1589906539784">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
