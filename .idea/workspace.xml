@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c6edbe8-13d8-40bd-974d-593e1c70e27b" name="Default Changelist" comment="session10">
-      <change afterPath="$PROJECT_DIR$/java-2020-root/onClass/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-2020-root/onClass/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-2020-root/onClass/IA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-2020-root/onClass/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-2020.iml" afterDir="false" />
+    <list default="true" id="8c6edbe8-13d8-40bd-974d-593e1c70e27b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-2020-root/hw01/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-2020-root/hw01/Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-2020-root/hw01/Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-2020-root/hw01/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-2020-root/hw01/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-2020-root/hw01/PrintUserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-2020-root/hw01/Q8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-2020-root/hw01/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-2020-root/onClass/StringDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-2020/hw01/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-2020-root/hw01/Area.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-2020/hw01/PrintNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-2020-root/hw01/PrintNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/treasureisland.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/treasureisland.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-2020-root/hw01/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-2020-root/hw01/Area.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,48 +33,11 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>52</find>
-      <find>button</find>
-      <find>abstract</find>
-      <find>String toString</find>
-      <find>inner</find>
-      <find>shape</find>
-      <find>line</find>
-      <find>stringbuilder</find>
-      <find>borderlayout</find>
-      <find>menu</find>
-      <find>addactionListener</find>
-      <find>iterator</find>
-      <find>append</find>
-      <find>add</find>
-      <find>nanotime</find>
-      <find>scanner</find>
-      <find>reader</find>
-      <find>febru</find>
-      <find>hashmap</find>
-      <find>map</find>
-      <find>K</find>
-      <find>V</find>
-      <find>ebooks</find>
-      <find>print</find>
-      <find>super</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>b</replace>
-      <replace>rawDataMap</replace>
-      <replace>allWordsMap</replace>
-      <replace>String</replace>
-      <replace>Integer</replace>
-      <replace>System.out.print</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/out</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
@@ -102,7 +73,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="Hydra Compiler" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -124,9 +95,61 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrintNumber">
-    <configuration name="PrintNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw01.PrintNumber" />
+  <component name="RunManager" selected="Application.Ex2">
+    <configuration name="Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw01.Ex1" />
+      <module name="java-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw01.Ex2" />
+      <module name="java-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Member" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw01.Member" />
+      <module name="java-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw01.Palindrome" />
+      <module name="java-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw01.Q8" />
       <module name="java-2020" />
       <extension name="coverage">
         <pattern>
@@ -151,9 +174,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Q8" />
+      <item itemvalue="Application.Palindrome" />
+      <item itemvalue="Application.Member" />
+      <item itemvalue="Application.Ex1" />
+      <item itemvalue="Application.Ex2" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrintNumber" />
+        <item itemvalue="Application.Ex2" />
+        <item itemvalue="Application.Ex1" />
+        <item itemvalue="Application.Member" />
+        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.Q8" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +238,8 @@
       <workItem from="1574473305888" duration="6878000" />
       <workItem from="1575166457591" duration="19000" />
       <workItem from="1589906164756" duration="5641000" />
+      <workItem from="1589912622223" duration="9974000" />
+      <workItem from="1589941298270" duration="4686000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1570214764626</created>
@@ -281,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573240352570</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update">
+      <created>1589912719676</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589912719677</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,57 +342,62 @@
     <MESSAGE value="SpellCheck v1.2" />
     <MESSAGE value="SpellCheck v1.3" />
     <MESSAGE value="session10" />
-    <option name="LAST_COMMIT_MESSAGE" value="session10" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2080" y="211" key="#Project_Structure" timestamp="1589912360927">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state x="2080" y="211" key="#Project_Structure/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589912360927" />
-    <state x="2180" y="326" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589912552603">
+    <state x="2180" y="326" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589912965551">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state x="2180" y="326" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589912552603" />
+    <state x="2180" y="326" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589912965551" />
     <state x="2428" y="568" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589907007693">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state x="2428" y="568" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589907007693" />
-    <state x="2242" y="124" key="CommitChangelistDialog2" timestamp="1589907202485">
+    <state x="2242" y="124" key="CommitChangelistDialog2" timestamp="1589912718781">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state x="2242" y="124" key="CommitChangelistDialog2/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589907202485" />
-    <state width="2508" height="354" key="GridCell.Tab.0.bottom" timestamp="1589912581968">
+    <state x="2242" y="124" key="CommitChangelistDialog2/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589912718781" />
+    <state width="2508" height="354" key="GridCell.Tab.0.bottom" timestamp="1589948513750">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="354" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589912581968" />
-    <state width="2508" height="354" key="GridCell.Tab.0.center" timestamp="1589912581967">
+    <state width="2508" height="354" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589948513750" />
+    <state width="2508" height="354" key="GridCell.Tab.0.center" timestamp="1589948513749">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="354" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589912581967" />
-    <state width="2508" height="354" key="GridCell.Tab.0.left" timestamp="1589912581967">
+    <state width="2508" height="354" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589948513749" />
+    <state width="2508" height="354" key="GridCell.Tab.0.left" timestamp="1589948513749">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="354" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589912581967" />
-    <state width="2508" height="354" key="GridCell.Tab.0.right" timestamp="1589912581968">
+    <state width="2508" height="354" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589948513749" />
+    <state width="2508" height="354" key="GridCell.Tab.0.right" timestamp="1589948513750">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="354" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589912581968" />
-    <state x="2080" y="211" key="SettingsEditor" timestamp="1589906480609">
+    <state width="2508" height="354" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589948513750" />
+    <state x="2080" y="211" key="SettingsEditor" timestamp="1589941505807">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state x="2080" y="211" key="SettingsEditor/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589906480609" />
+    <state x="2080" y="211" key="SettingsEditor/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589941505806" />
     <state x="2482" y="503" key="chooseDestDirectoryDialog" timestamp="1589911772797">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state x="2482" y="503" key="chooseDestDirectoryDialog/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589911772797" />
-    <state width="666" height="201" key="javadoc.popup.new" timestamp="1589912141468">
+    <state width="666" height="201" key="javadoc.popup.new" timestamp="1589947124970">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
-    <state width="666" height="201" key="javadoc.popup.new/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589912141468" />
+    <state width="666" height="201" key="javadoc.popup.new/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589947124970" />
     <state x="1914" y="198" key="new project wizard" timestamp="1589906539784">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state x="1914" y="198" key="new project wizard/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589906539784" />
+    <state x="2301" y="341" key="search.everywhere.popup" timestamp="1589947106393">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2301" y="341" key="search.everywhere.popup/0.23.1440.877/1440.23.2560.1417@1440.23.2560.1417" timestamp="1589947106393" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
