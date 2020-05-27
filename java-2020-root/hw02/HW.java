@@ -69,6 +69,17 @@ class HW {
         }
     }
 
+    // Write a program to check if the letter 'e' is present in the word 'Umbrella'.
+    static boolean isPresent(String str, Character c) {
+        boolean ans = false;
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == c) {
+                ans = true;
+                break;
+            }
+        }
+        return ans;
+    }
 
     public static void main(String[] args) {
 //        getIndex("Java Exercises");
@@ -83,12 +94,19 @@ class HW {
 
 //        checkEligibilty(10, 39);
 
-        try {
-            ThrowExample obj = new ThrowExample();
-            obj.myMethod(1);
-        } catch (Exception ex) {
-            System.out.println(ex);
-        }
+//        try {
+//            ThrowExample obj = new ThrowExample();
+//            obj.myMethod(1);
+//        } catch (Exception ex) {
+//            System.out.println(ex);
+//        }
+
+//        Parent childOne = new ChildOne();
+//        childOne.message();
+//        Parent childTwo = new ChildTwo();
+//        childTwo.message();
+
+//        System.out.println(isPresent("Umbrella", 'e'));
     }
 
 }
