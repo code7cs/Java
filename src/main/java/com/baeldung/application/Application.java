@@ -19,7 +19,7 @@ public class Application {
     CommandLineRunner init(UserRepository userRepository) {
         return args -> {
             Stream.of("John", "Julie", "Jennifer", "Helen", "Rachel").forEach(name -> {
-                User user = new User(name, name.toLowerCase() + "@domain.com");
+                User user = new User(name, name.toLowerCase() + "@domain.com", "551-2636535");
                 userRepository.save(user);
             });
             userRepository.findAll().forEach(System.out::println);
